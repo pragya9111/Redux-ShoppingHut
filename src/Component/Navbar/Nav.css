@@ -1,0 +1,54 @@
+.nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5vmax;
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 12vw;
+    height: inherit;
+    /* background-color:cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-family: Life is goofy;
+    color:#84AD52;
+    font-size: 3vmax;
+}
+.logo span {
+    color: #979797;
+}
+.menu{
+    width: 26vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu input{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    border-radius: .8vmin;
+    background-color: rgb(235, 244, 248);
+    padding-left: 2vmin;
+    box-shadow: 0px 0px 3px gray inset;
+}
+.menu i{
+    font-size: 1.3vmax;
+    color: #7d7d7d;
+}
+.menu>:nth-child(3){
+    margin-left: 2vmax;
+    font-size: 1.4vmax;
+}
+/* color:#8AB15A; */
+/* color:#979797; */

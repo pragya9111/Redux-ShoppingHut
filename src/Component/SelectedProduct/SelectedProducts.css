@@ -1,0 +1,91 @@
+.container{
+    width: 82vw;
+    height: 88vh;
+    /* background-color: lightgreen; */
+    display: flex;
+    padding: 3vmax 5vmax;
+    overflow: hidden;
+}
+.holder{
+    width: 68vw;
+    height: 75vh;
+    display: flex;
+    box-shadow: 0px 0px 5px gray;
+    overflow: hidden;
+    border-radius: 1vmin;
+}
+.left{
+    width: 34vw;
+    height: 75vh;
+    /* background-color: lightcoral; */
+    overflow: hidden;
+    border: .5px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    width: 70%;
+}
+.right{
+    width: 34vw;
+    height: 75vh;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+    border: .5px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: montserrat;
+    padding: 0 2vmin;
+}
+.right .ctgry{
+    width: inherit;
+    height: 7vh;
+    background-color: rgba(237, 237, 237, 0.862);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(61, 60, 60);
+}
+.right h3{
+    margin: 2vmin 0;
+    font-family: montserrat;
+}
+.right .price{
+    margin: 2vmin 0;
+    font-size: 2.5vmin;
+}
+.right .rating{
+    margin: 2vmax 0;
+}
+.right p{
+    font-size: 1.8vmin;
+}
+.right button{
+    padding: 1.2vmin 3vmin;
+    font-size: 2vmin;
+    margin-top: 2vmax;
+    font-family: montserrat;
+    font-weight: 500;
+    border-radius: 3vmin;
+    cursor: pointer;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+.right button:hover{
+    transform: scale(1.1);
+}
+
+.right .cart{
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    box-shadow: 0px 3px 8px rgb(113, 113, 113);
+}
+.right .buy{
+    background-color: #84AD52;
+    color: white;
+    box-shadow: 0px 3px 8px #3a5c10;
+}
+
+

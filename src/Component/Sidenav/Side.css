@@ -1,0 +1,23 @@
+.side{
+    width: 17vw;
+    height: 85vh;
+    background-color: rgb(78, 78, 78);
+    margin-top: 2vmax;
+}
+.small{
+    width: inherit;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small h5{
+    color: white;
+    font-size: 2vmin;
+    font-weight: 500;
+    font-family: montserrat;
+}
+.small h5:hover{
+    color:#84AD52;
+    cursor: pointer;
+}
